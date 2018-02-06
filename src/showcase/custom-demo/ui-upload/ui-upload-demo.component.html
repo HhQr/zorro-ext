@@ -1,0 +1,59 @@
+<article>
+    <section class="markdown">
+        <h1>ui-upload 图片&文件上传</h1>
+        <section class="markdown">
+            <p>使用nz-upload组件封装图片&文件上传</p>
+            <h2 id="何时使用"><span>如何使用</span>
+                <a class="anchor">#</a>
+            </h2>
+            <p>点击选择要上传的文件和图片</p>
+        </section>
+        <h2>代码演示<i class="code-box-expand-trigger anticon anticon-appstore" title="展开全部代码"></i></h2>
+    </section>
+    <div nz-row [nzGutter]="8">
+        <div nz-col [nzSpan]="12">
+            <nz-code-box [nzTitle]="'基本使用'" id="ui-upload-demo-basic" [nzCode]="UiUploadDemoBasicCode">
+                <ui-upload-demo-basic demo></ui-upload-demo-basic>
+                <div intro>
+                    <p>基本使用。</p>
+                </div>
+            </nz-code-box>
+        </div>
+    </div>
+    <section class="markdown api-container">
+        <h2 id="API"><span>API</span>
+            <!-- <a class="anchor">#</a> -->
+        </h2>
+        <h3 id="Select props"><span>shipper-select</span>
+            <!-- <a class="anchor">#</a> -->
+        </h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>参数</th>
+                    <th>说明</th>
+                    <th>类型</th>
+                    <th>默认值</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>nzAccept</td>
+                    <td>指定上传文件类型</td>
+                    <td>
+                        String
+                    </td>
+                    <td>无</td>
+                </tr>
+                <tr>
+                    <td>fileNumber</td>
+                    <td>限制上传文件个数</td>
+                    <td>
+                        Number
+                    </td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</article>

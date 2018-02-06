@@ -1,0 +1,8 @@
+<nz-upload [nzAction]="nzAction" [(nzFileList)]="fileList" 
+[nzAccept]="nzAccept" [nzRemove]="handleRemove"
+(nzChange)="nzChange($event)" [nzShowButton]="fileList.length < fileNumber">
+    <button nz-button>
+        <i class="anticon anticon-upload"></i>
+        <span>请选择上传文件</span>
+    </button>
+</nz-upload>

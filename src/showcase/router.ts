@@ -54,6 +54,12 @@ export const ROUTER_LIST = {
           // 'loadChildren': './nz-demo-button/nz-demo-button.module#NzDemoButtonModule',
           'zh'          : '发货人选择'
         },
+        {
+          'label'       : 'ui-upload',
+          'path'        : 'components/ui-upload',
+          // 'loadChildren': './nz-demo-button/nz-demo-button.module#NzDemoButtonModule',
+          'zh'          : '图片&文件上传'
+        },
       ]
     },
     {
@@ -587,6 +593,10 @@ export const DEMO_ROUTES = [
   {
     'path'        : 'components/shipper-select',
     'loadChildren': './custom-demo/shipper-select/shipper-select-demo.module#ShipperSelectDemoModule'
+  },
+  {
+    'path'        : 'components/ui-upload',
+    'loadChildren': './custom-demo/ui-upload/ui-upload-demo.module#UiUploadDemoModule'
   },
 ];
 

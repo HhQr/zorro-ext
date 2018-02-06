@@ -7,8 +7,9 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./shipper-select-demo.component.less']
 })
 export class ShipperSelectDemoComponent {
+    
     ShipperSelectDemoBasicCode = require('!!raw-loader!./shipper-select-demo-basic.component');
-    ShipperSelectDemoMultipleComponent = require('!!raw-loader!./shipper-select-demo-multiple.component');
-    ShipperSelectDemoTemplateComponent = require('!!raw-loader!./shipper-select-demo-template.component');
+    ShipperSelectDemoMultipleCode  = require('!!raw-loader!./shipper-select-demo-multiple.component');
+    ShipperSelectDemoTemplateCode  = require('!!raw-loader!./shipper-select-demo-template.component');
 
 }
